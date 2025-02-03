@@ -1,0 +1,18 @@
+return {
+	require("plugins.barbecue"),
+	require("plugins.bufferline"),
+	require("plugins.cmp"),
+	require("plugins.conform"),
+	require("plugins.dap"),
+	require("plugins.fzf"),
+	require("plugins.git"),
+	require("plugins.lualine"),
+	require("plugins.mason"),
+	require("plugins.nvim-ide"),
+	require("plugins.nvterm"),
+	require("plugins.snacks"),
+	require("plugins.themes"),
+	require("plugins.treesitter"),
+	require("plugins.which-key"),
+	require("plugins.zenmode"),
+}
