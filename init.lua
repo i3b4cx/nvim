@@ -21,3 +21,4 @@ require("configs")
 
 require("mappings")
 require("options")
+require("autocmds")
