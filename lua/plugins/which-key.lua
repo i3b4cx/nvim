@@ -43,6 +43,7 @@ return {
 		{ mode = "n", "<leader>fo", "<cmd>FzfLua oldfiles<cr>",                             desc = "fzf find oldfiles" },
 		{ mode = "n", "<leader>cm", "<cmd>FzfLua git_commits<cr>",                          desc = "fzf git commits" },
 		{ mode = "n", "<leader>gt", "<cmd>FzfLua git_status<cr>",                           desc = "fzf git status" },
+		{ mode = "n", "<leader>th", "<cmd>FzfLua colorschemes<cr>",                         desc = "fzf git status" },
 		-- buffer navigation
 		-- { mode = "n", "<C-i>",      "<cmd>bnext<cr>",                                       desc = "go to next buffer" },
 		-- { mode = "n", "<C-o>",      "<cmd>bprev<cr>",                                       desc = "go to previous buffer" },
