@@ -44,9 +44,9 @@ return {
 		{ mode = "n", "<leader>cm", "<cmd>FzfLua git_commits<cr>",                          desc = "fzf git commits" },
 		{ mode = "n", "<leader>gt", "<cmd>FzfLua git_status<cr>",                           desc = "fzf git status" },
 		-- buffer navigation
-		{ mode = "n", "<C-i>",      "<cmd>bnext<cr>",                                       desc = "go to next buffer" },
-		{ mode = "n", "<C-o>",      "<cmd>bprev<cr>",                                       desc = "go to previous buffer" },
-		{ mode = "n", "<leader>x",  "<cmd>bdelete<cr>",                                     desc = "delete buffer" },
+		-- { mode = "n", "<C-i>",      "<cmd>bnext<cr>",                                       desc = "go to next buffer" },
+		-- { mode = "n", "<C-o>",      "<cmd>bprev<cr>",                                       desc = "go to previous buffer" },
+		-- { mode = "n", "<leader>x",  "<cmd>bdelete<cr>",                                     desc = "delete buffer" },
 		-- movement
 		{ mode = "i", "<C-b>",      "<ESC>^i",                                              desc = "move beginning of line" },
 		{ mode = "i", "<C-e>",      "<End>",                                                desc = "move end of line" },
