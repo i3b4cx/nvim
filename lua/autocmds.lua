@@ -24,6 +24,7 @@ autocmd({ "UIEnter", "BufReadPost", "BufNewFile" }, {
 
 				vim.cmd("Workspace LeftPanelToggle")
 				vim.cmd("Workspace RightPanelToggle")
+				vim.cmd("colorscheme dawnfox")
 			end)
 		end
 	end,

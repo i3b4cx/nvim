@@ -3,7 +3,6 @@ return {
 	require("plugins.bufferline"),
 	require("plugins.cmp"),
 	require("plugins.conform"),
-	require("plugins.dap"),
 	require("plugins.fzf"),
 	require("plugins.git"),
 	require("plugins.lualine"),

@@ -1,6 +1,6 @@
 -- LSP Config
 local lspconfig = require "lspconfig"
-local servers = { "html", "cssls", "ts_ls", "clangd" }
+local servers = { "pylsp", "html", "cssls", "ts_ls", "clangd" }
 local nvlsp = require("configs.lspconfig")
 -- lsps with default config
 for _, lsp in ipairs(servers) do
