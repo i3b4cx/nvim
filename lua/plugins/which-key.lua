@@ -32,6 +32,16 @@ return {
 		{ mode = "n", "<leader>s",  [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], desc = "replace all highlights" },
 		{ mode = "v", "J",          ":m '>+1<CR>gv=gv",                                     desc = "move row up" },
 		{ mode = "v", "K",          ":m '<-2<CR>gv=gv",                                     desc = "move row down" },
+		-- window resizing
+		{ mode = "n", "<C-Up>",     "<cmd>resize +2<cr>",                                   desc = "increase window height" },
+		{ mode = "n", "<C-Down>",   "<cmd>resize -2<cr>",                                   desc = "decrease window height" },
+		{ mode = "n", "<C-Right>",  "<cmd>vertical resize +2<cr>",                          desc = "increase window width" },
+		{ mode = "n", "<C-Left>",   "<cmd>vertical resize -2<cr>",                          desc = "decrease window width" },
+
+		{ mode = "n", "<C-k>",      "<cmd>resize +2<cr>",                                   desc = "increase window height" },
+		{ mode = "n", "<C-j>",      "<cmd>resize -2<cr>",                                   desc = "decrease window height" },
+		{ mode = "n", "<C-l>",      "<cmd>vertical resize +2<cr>",                          desc = "increase window width" },
+		{ mode = "n", "<C-h>",      "<cmd>vertical resize -2<cr>",                          desc = "decrease window width" },
 		-- alt command entrance
 		{ mode = "n", ";",          ":",                                                    desc = "CMD enter command mode" },
 		-- fzf search
