@@ -16,6 +16,11 @@ require("conform").setup({
 		html = { "prettier" },
 		css = { "prettier" },
 		yaml = { "prettier" },
+
+		-- bash formatting
+		bash = { "shfmt" },
+		sh = { "shfmt" },
+		zsh = { "shfmt" },
 	},
 
 	format_on_save = {

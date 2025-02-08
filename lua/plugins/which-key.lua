@@ -33,15 +33,15 @@ return {
 		{ mode = "v", "J",          ":m '>+1<CR>gv=gv",                                     desc = "move row up" },
 		{ mode = "v", "K",          ":m '<-2<CR>gv=gv",                                     desc = "move row down" },
 		-- window resizing
-		{ mode = "n", "<C-Up>",     "<cmd>resize +2<cr>",                                   desc = "increase window height" },
-		{ mode = "n", "<C-Down>",   "<cmd>resize -2<cr>",                                   desc = "decrease window height" },
-		{ mode = "n", "<C-Right>",  "<cmd>vertical resize +2<cr>",                          desc = "increase window width" },
-		{ mode = "n", "<C-Left>",   "<cmd>vertical resize -2<cr>",                          desc = "decrease window width" },
+		{ mode = "n", "<D-Up>",     "<cmd>resize +2<cr>",                                   desc = "increase window height" },
+		{ mode = "n", "<D-Down>",   "<cmd>resize -2<cr>",                                   desc = "decrease window height" },
+		{ mode = "n", "<D-Right>",  "<cmd>vertical resize +2<cr>",                          desc = "increase window width" },
+		{ mode = "n", "<D-Left>",   "<cmd>vertical resize -2<cr>",                          desc = "decrease window width" },
 
-		{ mode = "n", "<C-k>",      "<cmd>resize +2<cr>",                                   desc = "increase window height" },
-		{ mode = "n", "<C-j>",      "<cmd>resize -2<cr>",                                   desc = "decrease window height" },
-		{ mode = "n", "<C-l>",      "<cmd>vertical resize +2<cr>",                          desc = "increase window width" },
-		{ mode = "n", "<C-h>",      "<cmd>vertical resize -2<cr>",                          desc = "decrease window width" },
+		{ mode = "n", "<D-k>",      "<cmd>resize +2<cr>",                                   desc = "increase window height" },
+		{ mode = "n", "<D-j>",      "<cmd>resize -2<cr>",                                   desc = "decrease window height" },
+		{ mode = "n", "<D-l>",      "<cmd>vertical resize +2<cr>",                          desc = "increase window width" },
+		{ mode = "n", "<D-h>",      "<cmd>vertical resize -2<cr>",                          desc = "decrease window width" },
 		-- alt command entrance
 		{ mode = "n", ";",          ":",                                                    desc = "CMD enter command mode" },
 		-- fzf search
