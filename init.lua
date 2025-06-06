@@ -22,3 +22,14 @@ require("configs")
 require("mappings")
 require("options")
 require("autocmds")
+
+-- Patch for lazygit floating window close issue
+local api = vim.api
+local orig_close_win = api.nvim_win_close
+
+api.nvim_win_close = function(win, force)
+	if api.nvim_win_is_valid(win) then
+		return orig_close_win(win, force)
+	end
+	-- suppress invalid win id error
+end

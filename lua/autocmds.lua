@@ -22,9 +22,9 @@ autocmd({ "UIEnter", "BufReadPost", "BufNewFile" }, {
 					require("editorconfig").config(args.buf)
 				end
 
-				vim.cmd("Workspace LeftPanelToggle")
-				vim.cmd("Workspace RightPanelToggle")
-				vim.cmd("colorscheme dawnfox")
+				vim.cmd("silent! Workspace LeftPanelToggle")
+				vim.cmd("silent! Workspace RightPanelToggle")
+				vim.cmd("silent! colorscheme dawnfox")
 			end)
 		end
 	end,
