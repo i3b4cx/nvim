@@ -11,6 +11,7 @@ vim.g.mapleader = " "
 vim.o.ignorecase = true
 
 vim.cmd("colorscheme zenbones")
+vim.cmd("set background=light")
 vim.cmd([[highlight clear WinBar]])
 vim.cmd([[highlight clear WinBarNC]])
 vim.cmd("set laststatus=1")
