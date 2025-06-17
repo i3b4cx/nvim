@@ -3,4 +3,5 @@ return {
 	{ "sainnhe/everforest" },
 	{ "EdenEast/nightfox.nvim" },
 	{ "catppuccin/nvim" },
+	{ "dasupradyumna/midnight.nvim" },
 }
