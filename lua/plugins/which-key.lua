@@ -24,8 +24,8 @@ return {
 			desc = "whichkey query lookup"
 		},
 		-- system clipboard mappings
-		{ mode = "v", "<leader>yy", '"+y',                                                  desc = "copy selection to system clipboard", silent = true },
-		{ mode = "n", "<leader>pp", '"+p',                                                  desc = "paste from system clipboard",        silent = true },
+		{ mode = "v", "y",          '"+y',                                                  desc = "copy selection to system clipboard", silent = true },
+		{ mode = "n", "p",          '"+p',                                                  desc = "paste from system clipboard",        silent = true },
 		-- misc vim mappings
 		{ mode = "n", "<Esc>",      "<cmd>noh<CR>",                                         desc = "general clear highlights",           silent = true },
 		{ mode = "n", "<C-s>",      "<cmd>w<CR>",                                           desc = "general save file",                  silent = true },
