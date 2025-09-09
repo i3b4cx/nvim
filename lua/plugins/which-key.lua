@@ -116,7 +116,7 @@ return {
 		},
 		{
 			mode = { "n", "t" },
-			"<A-i>",
+			"<A-Space>",
 			function()
 				require("nvterm.terminal").toggle "float"
 			end,
@@ -124,9 +124,9 @@ return {
 			desc = "terminal toggle floating term"
 		},
 		-- plugins
-		{ mode = "n", "<leader>lz", "<cmd>Lazy<cr>",         desc = "lazy plugin manager", silent = true },
-		{ mode = "n", "<leader>lg", "<cmd>LazyGit<cr>",      desc = "lazy git ui",         silent = true },
-		{ mode = "n", "<leader>z",  "<cmd>ZenMode<cr>",      desc = "zenmode ui",          silent = true },
+		{ mode = "n", "<leader>lz", "<cmd>Lazy<cr>",    desc = "lazy plugin manager", silent = true },
+		{ mode = "n", "<leader>lg", "<cmd>LazyGit<cr>", desc = "lazy git ui",         silent = true },
+		{ mode = "n", "<leader>z",  "<cmd>ZenMode<cr>", desc = "zenmode ui",          silent = true },
 		{
 			mode = "n",
 			"<leader>fm",
