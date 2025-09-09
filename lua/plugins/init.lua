@@ -1,5 +1,4 @@
 return {
-	require("plugins.avante"),
 	require("plugins.barbecue"),
 	require("plugins.bufferline"),
 	require("plugins.cmp"),

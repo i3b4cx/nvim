@@ -124,7 +124,6 @@ return {
 			desc = "terminal toggle floating term"
 		},
 		-- plugins
-		{ mode = "n", "<leader>ai", "<cmd>AvanteToggle<cr>", desc = "avante ai assistant", silent = true },
 		{ mode = "n", "<leader>lz", "<cmd>Lazy<cr>",         desc = "lazy plugin manager", silent = true },
 		{ mode = "n", "<leader>lg", "<cmd>LazyGit<cr>",      desc = "lazy git ui",         silent = true },
 		{ mode = "n", "<leader>z",  "<cmd>ZenMode<cr>",      desc = "zenmode ui",          silent = true },
