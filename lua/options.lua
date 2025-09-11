@@ -11,7 +11,8 @@ vim.opt.termguicolors = true
 vim.g.mapleader = " "
 vim.o.ignorecase = true
 
-vim.cmd("colorscheme dawnfox")
+vim.cmd("colorscheme everforest")
+vim.cmd("set background=light")
 vim.cmd([[highlight clear WinBar]])
 vim.cmd([[highlight clear WinBarNC]])
 vim.cmd("set laststatus=1")

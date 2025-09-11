@@ -42,7 +42,7 @@ autocmd({ "UIEnter", "BufReadPost", "BufNewFile", "BufWinEnter" }, {
 
 				vim.cmd("silent! Workspace LeftPanelToggle")
 				vim.cmd("silent! Workspace RightPanelToggle")
-				vim.cmd("silent! colorscheme dawnfox")
+				vim.cmd("silent! colorscheme everforest")
 			end)
 		end, 20) -- 20ms delay to allow filetype to be set
 	end,
