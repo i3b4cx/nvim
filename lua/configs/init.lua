@@ -1,0 +1,6 @@
+require("configs.cmp")
+require("configs.treesitter")
+require("configs.conform")
+require("configs.nvim-ide")
+require("configs.mason")
+require("configs.gitsigns")
